@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook login site</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(228,228,228);
+        }
+        
+        img{
+            width: 25%;
+            position: relative;
+            top: 100px;
+            left: 120px;
+        }
+        p{
+            font-size: 30px;
+            margin-left: 150px;
+            margin-top: 50px; 
+            
+        }
+        .main{
+            display: flex;
+        }
+        .middle{
+            background-color: rgb(255,255,255);
+            position: relative;
+            top: 150px;
+            right: 200px;
+            width: 400px;
+            height: 350px;
+            border: 1px solid white;
+            border-radius: 12px;
+            text-align: center;
+            
+           
+        }
+        .last{
+            position: relative;
+            top: 170px;
+            right: 150px;
+        }
+        input{
+            padding:15px ;
+            width: 80%;
+            margin: 8px;
+            border: 2px solid gainsboro;
+            border-radius: 5px;
+        }
+        .dj{
+            position: relative;
+            top: 30px;
+            right: 575px;
+
+        }
+        .button{
+            padding: 15px;
+            width: 88%;
+            margin: 10px;
+            border: 1px solid rgb(0, 140, 255);
+            border-radius: 5px;
+            background-color: rgb(0, 140, 255);
+            color: white;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+        } 
+
+       
+        .new{
+            margin: 40px;
+            padding: 15px;
+            width: 60%;
+            background-color: rgb(3, 180, 3);
+            border: 1px solid rgb(3,180,3);
+            border-radius: 5px;
+            color: white;
+            font-size: 15px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .hr{
+            position: relative;
+            top: 20px;
+            background-color:white;
+        }
+        .for{
+            text-decoration: none;
+            color: rgb(0, 140, 255);
+        }
+        .a-page{
+           text-decoration: none;
+            color: black;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <section class="main">
+        <div class="top">
+            <img src="https://download.logo.wine/logo/Facebook/Facebook-Logo.wine.png" alt="">
+            <p>Facebook helps you connect and share with the 
+                <span class="dj">people in your life.</span> </p>
+            
+        </div>
+        <div class="loginpage">
+            <div class="middle">
+                <input type="text" placeholder="Email or phone number">
+                <input type="password" placeholder="password">
+                <button class="button">Log in</button>
+                <a class="for" href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgotten password?</a><hr class="hr">
+                <button class="new">Create new account</button>
+            </div>
+            <div class="last">
+                <a href="https://www.facebook.com/pages/create/?ref_type=registration_form"><span class="a-page"><b>Create a page</b></span> </a>for a celebrity, brand or business.
+            </div>
+    
+        </div>
+
+    </section>
+    
+</body>
+</html>
